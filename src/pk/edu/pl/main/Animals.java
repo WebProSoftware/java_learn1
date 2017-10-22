@@ -19,8 +19,6 @@ public class Animals {
 		Iterator<Animal> it = animals.iterator();
 		while (it.hasNext()){
 			System.out.println(it.next().voice());
-			
-			
 		}
 	}
 }
